@@ -57,3 +57,26 @@
     ```
 
     The server will start on `http://127.0.0.1:5000` by default.
+
+
+# Roadmap for Update Versioning Server
+
+## Phase 1: Foundation
+- [x] **Initial Setup**
+  - Set up server environment and database.
+  - Configure basic versioning structure.
+- [x] **Core Features**
+  - Implement route-based update handling.
+  - Integrate with AutoUpdater for XML-based configurations.
+  - Create admin interface for managing updates.
+- [x] **Testing**
+  - Perform unit tests on versioning routes.
+  - Validate compatibility with AutoUpdater.
+
+## Phase 2: Expanding
+- [x] **Set Repo Public**
+- [ ] **Add Private Routes**
+    - Support for creating randomized download link
+    - Support for support for setting expirations on download link
+    - Support for custom download link 'rules'
+
