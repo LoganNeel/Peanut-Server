@@ -1,6 +1,9 @@
 # Peanut-Server README
 
-<h3 style="text-align:center;">![PeanutIcon.jpg](img/PeanutIcon.jpg)</h3>
+<p style="text-align:center;">
+  <img src="img/PeanutIcon.jpg" alt="PeanutIcon" />
+</p>
+
 ## Overview
 
 **Peanut-Server** is a Python-based Flask server designed to handle version management for software installers. It allows developers to manage and distribute versions of their applications, organized into different branches, providing a seamless way to deploy and update software across various environments. Each application can have multiple branches (e.g., `stable`, `beta`, `dev`), and each branch can have multiple versions.
