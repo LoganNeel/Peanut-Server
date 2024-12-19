@@ -1,8 +1,8 @@
-# Squirrel-Server README
+# Peanut-Server README
 
 ## Overview
 
-**Squirrel-Server** is a Python-based Flask server designed to handle version management for software installers. It allows developers to manage and distribute versions of their applications, organized into different branches, providing a seamless way to deploy and update software across various environments. Each application can have multiple branches (e.g., `stable`, `beta`, `dev`), and each branch can have multiple versions.
+**Peanut-Server** is a Python-based Flask server designed to handle version management for software installers. It allows developers to manage and distribute versions of their applications, organized into different branches, providing a seamless way to deploy and update software across various environments. Each application can have multiple branches (e.g., `stable`, `beta`, `dev`), and each branch can have multiple versions.
 
 ## Features
 
@@ -24,8 +24,8 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/LoganNeel/squirrel-server.git
-    cd squirrel-server
+    git clone https://github.com/LoganNeel/Peanut-server.git
+    cd Peanut-server
     ```
 
 2. Create a virtual environment (optional but recommended):
