@@ -1,0 +1,59 @@
+# Squirrel-Server README
+
+## Overview
+
+**Squirrel-Server** is a Python-based Flask server designed to handle version management for software installers. It allows developers to manage and distribute versions of their applications, organized into different branches, providing a seamless way to deploy and update software across various environments. Each application can have multiple branches (e.g., `stable`, `beta`, `dev`), and each branch can have multiple versions.
+
+## Features
+
+- **Version Management:** Manage versions for each application, with the ability to store and retrieve specific versions for installation.
+- **Branch Support:** Each application can have multiple branches (e.g., `stable`, `beta`, `dev`, ect), allowing you to manage different stages of development and deployment.
+- **Flask-based Server:** A lightweight and easy-to-use API server built with Flask.
+- **Installer Distribution:** Provide installers for specific versions and branches to users, making it easy to distribute updates.
+- **JSON API:** Interact with the server using a simple RESTful API that provides version details, available branches, and download links.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.12 or later
+- pip (Python package installer)
+
+### Steps
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/LoganNeel/squirrel-server.git
+    cd squirrel-server
+    ```
+
+2. Create a virtual environment (optional but recommended):
+
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows, use venv\Scripts\activate
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Set up environment variables for the Flask server configuration. You can copy and modify the `.env.example` file or set them directly as environment variables.
+
+    Example:
+
+    ```bash
+    DEVELOPER_KEY={Put key here}
+    PROJECT_ROOT={Put path to project storage here}
+    ```
+
+5. Run the server:
+
+    ```bash
+    flask run
+    ```
+
+    The server will start on `http://127.0.0.1:5000` by default.
